@@ -129,7 +129,7 @@ const file_messages_proto_rawDesc = "" +
 	"UserOutput\x12\x1a\n" +
 	"\bgreeting\x18\x01 \x01(\tR\bgreeting2<\n" +
 	"\bGreeting\x120\n" +
-	"\vGetGreeting\x12\x0f.apis.UserInput\x1a\x10.apis.UserOutputB*Z(github.com/practice/example1/apis/protosb\x06proto3"
+	"\vGetGreeting\x12\x0f.apis.UserInput\x1a\x10.apis.UserOutputB1Z/github.com/bmoola/practice/example1/apis/protosb\x06proto3"
 
 var (
 	file_messages_proto_rawDescOnce sync.Once

@@ -4,8 +4,8 @@ import (
 	"log"
 	"net"
 
-	"github.com/practice/example1/apis/protos"
-	"github.com/practice/example1/services/service"
+	"github.com/bmoola/practice/example1/apis/protos"
+	"github.com/bmoola/practice/example1/services/service"
 	"google.golang.org/grpc"
 )
 

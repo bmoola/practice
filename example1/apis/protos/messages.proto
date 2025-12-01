@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package apis;
 
-option go_package = "github.com/practice/example1/apis/protos";
+option go_package = "github.com/bmoola/practice/example1/apis/protos";
 
 message UserInput{
     string firstname = 1;

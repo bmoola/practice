@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/practice/example1/apis/protos"
+	"github.com/bmoola/practice/example1/apis/protos"
 )
 
 type UserServiceServer struct{
