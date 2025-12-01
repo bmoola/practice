@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package apis;
+
+option go_package = "github.com/practice/example1/apis/protos";
+
+message UserInput{
+    string firstname = 1;
+    string lastname = 2;
+}
+
+message UserOutput{
+    string greeting = 1;
+}
+
+service Greeting{
+    rpc GetGreeting(UserInput) returns (UserOutput);
+}
